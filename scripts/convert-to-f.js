@@ -3,7 +3,10 @@
 console.log('-- loading: convertToF');
 
 
-function convertToF() { }
+function convertToF(celsius) { 
+  const fahrenheit = (celsius * 1.8) + 32;
+  return fahrenheit;
+}
 
 
 {
@@ -46,11 +49,27 @@ function convertToFHandler() {
   debugger;
 
   // read user input
+  const celsius = prompt("Enter a celsius value: ");
+  let numberValue = Number(celsius);
+  
+  // before moving on ... type check!
+ 
+  if (isNaN(numberValue))
+   {alert ('please enter number');} 
+   
+  
 
   // core logic
-  const result = convertToF(c);
-
+  
+  const result =convertToF(celsius) ;
+  
   // display for use
+  var message=( celsius + '\xB0  is ' + result + ' \xB0 .');
+  alert(message);
 
   // log for developers
-}
+  console.log('celsius', typeof celsius, '\n', celsius);
+  console.log('numberValue', typeof numberValue, '\n', numberValue);
+  console.log('result', typeof result, '\n', result);
+  console.log('message', typeof message, '\n', message);
+} 
