@@ -64,7 +64,7 @@ function convertToFHandler() {
   const result =convertToF(celsius) ;
   
   // display for use
-  var message=( celsius + '\xB0  is ' + result + ' \xB0 .');
+  var message=( celsius + '\xB0 Celsius is ' + result + ' \xB0 Fahrenheit .');
   alert(message);
 
   // log for developers
