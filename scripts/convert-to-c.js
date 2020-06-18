@@ -4,7 +4,7 @@ console.log('-- loading: convertToC');
 
 
 function convertToC(fahrenheit) {
-  const celsius = (fahrenheit - 32) * 5/9;
+  const celsius = (fahrenheit - 32) * (5/9);
   return celsius;
  }
 
@@ -61,7 +61,7 @@ function convertToCHandler() {
 
  // core logic
  
- const result =convertToF(fahrenheit) ;
+ const result =convertToC(fahrenheit) ;
  
  // display for use
  var message=( fahrenheit + '\xB0  is Fahrenheit ' + result + ' \xB0 Celsius .');
