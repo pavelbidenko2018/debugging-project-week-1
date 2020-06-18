@@ -61,11 +61,10 @@ function convertToCHandler() {
 
  // core logic
  
-<<<<<<< HEAD
+
  const result =Math.round(convertToC(fahrenheit)) ;
-=======
- const result =convertToC(fahrenheit) ;
->>>>>>> ab8321ce055eea3fae09cdbd0e7810e49882e0d8
+
+ 
  
  // display for use
  var message=( fahrenheit + '\xB0  is Fahrenheit ' + result + ' \xB0 Celsius .');
