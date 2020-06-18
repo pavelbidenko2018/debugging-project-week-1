@@ -3,7 +3,10 @@
 console.log('-- loading: convertToC');
 
 
-function convertToC() { }
+function convertToC(fahrenheit) {
+  const celsius = (fahrenheit - 32) * (5/9);
+  return celsius;
+ }
 
 
 {
@@ -45,12 +48,31 @@ function convertToC() { }
 function convertToCHandler() {
   debugger;
 
-  // read user input
+ // read user input
+ const fahrenheit = prompt("Enter a fahrenheit value: ");
+ let numberValue = Number(fahrenheit);
+ 
+ // before moving on ... type check!
 
-  // core logic
-  const result = convertToC(f);
+ if (isNaN(numberValue))
+  {alert ('please enter number');} 
+  
+ 
 
-  // display for use
+ // core logic
+ 
 
-  // log for developers
+ const result =Math.round(convertToC(fahrenheit)) ;
+
+ 
+ 
+ // display for use
+ var message=( fahrenheit + '\xB0  is Fahrenheit ' + result + ' \xB0 Celsius .');
+ alert(message);
+
+ // log for developers
+ console.log('fahrenheit', typeof fahrenheit, '\n', fahrenheit);
+ console.log('numberValue', typeof numberValue, '\n', numberValue);
+ console.log('result', typeof result, '\n', result);
+ console.log('message', typeof message, '\n', message);
 }
