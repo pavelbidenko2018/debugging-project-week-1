@@ -61,7 +61,7 @@ function convertToFHandler() {
 
   // core logic
   
-  const result =convertToF(celsius) ;
+  const result =Math.round(convertToF(celsius));
   
   // display for use
   var message=( celsius + '\xB0 Celsius is ' + result + ' \xB0 Fahrenheit .');
