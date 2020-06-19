@@ -59,6 +59,9 @@ function reverseStringHandler() {
   // read user input
   const str = prompt("Write something:");
   // core logic
+  if (str === null) {
+    return; }//break out of the function early
+    
   const result = reverseString(str);
 
   const message = `The reverse of "${str}" is "${result}"`;

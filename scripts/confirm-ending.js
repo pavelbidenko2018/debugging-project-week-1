@@ -76,9 +76,15 @@ function confirmEndingHandler() {
     "This application will check whether you write correct ending for a text that you have entered!"
   );
   const str = prompt("Enter a text");
+  if (str === null) {
+    return; }//break out of the function early
+    
   const ending = prompt("Enter an ending of your text");
-
+  
   // core logic
+  if (str === null) {
+    return; }//break out of the function early
+
   const result = confirmEnding(str, ending);
   const message = `You entered ${result ? "correct" : "wrong"}!`;
 

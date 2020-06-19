@@ -78,6 +78,10 @@ function repeatStringNumTimesHandler() {
     // read user input
     alert('This function repeats user input string n times');
     const input = prompt('Input your string');
+    
+    if (input === null) {
+        return; }//break out of the function early
+        
     const num = prompt('How many times it would be repeated?')
 
     // core logic

@@ -57,6 +57,9 @@ function findLongestWordLengthHandler() {
   const userInput = prompt("Write a sentence or a group of words:");
 
   // core logic
+  if (userInput === null) {
+    return; }//break out of the function early
+    
   const result = findLongestWordLength(userInput);
   const message = `The length of the longest word in your sentence is "${result}"!`;
 

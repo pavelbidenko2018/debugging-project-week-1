@@ -56,6 +56,9 @@ function convertToCHandler() {
 
  if (isNaN(numberValue))
   {alert ('please enter number');} 
+  if (fahrenheit === null) {
+    return; //break out of the function early
+}
   
  
 

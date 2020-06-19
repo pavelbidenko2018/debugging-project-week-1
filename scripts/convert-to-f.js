@@ -57,6 +57,9 @@ function convertToFHandler() {
   if (isNaN(numberValue))
    {alert ('please enter number');} 
    
+   if (celsius === null) {
+    return;} //break out of the function early
+   
   
 
   // core logic
