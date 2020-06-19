@@ -36,7 +36,7 @@
 
 ![debugging-project-html](debugging-project-html.png)
 
-This project aims to use debugger tools while practicing basic JavaScript concepts. For the purpose of this project, the 3 junior developers were partnered together.
+This project aims to use debugger tools while practicing basic JavaScript concepts. For the purpose of this project, the 3 junior developers were partnered together. 1 more junior developer was added after the initial groups were formed to work on  the project.
 
 The objective of this project is to build a simple html page that runs 6 different scripts;
 
@@ -85,6 +85,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Fatih](https://github.com/fmkarakus)
 - [Gelila](https://github.com/gelilaa)
 - [Pavel](https://github.com/pavelbidenko2018)
+- [Anna](https://github.com/LujiAnna)
+
 
 Project Link: [debugging-project-1](https://github.com/pavelbidenko2018/debugging-project-week-1)
 
