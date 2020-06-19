@@ -3,8 +3,18 @@
 console.log('-- loading: reverseString');
 
 
-function reverseString() { }
+function reverseString(sth) {
+  if (sth === '') {
+    return sth;
+  } else {
+    let outputStrings = [];
+    for (let i = sth.length - 1; i >= 0; i--) {
+      outputStrings.push(String(sth[i]));
+    }
+    return outputStrings.join("");
+  }
 
+}
 
 {
   console.log('-- testing: reverseString ');
@@ -39,6 +49,7 @@ function reverseString() { }
   const _6_expect = 'dogeeseseegod';
   const _6_actual = reverseString(_6_arg);
   console.assert(_6_actual === _6_expect, 'Test 6');
+
 }
 
 
@@ -46,12 +57,18 @@ function reverseStringHandler() {
   debugger;
 
   // read user input
-
+  const str = prompt("Write something:");
   // core logic
   const result = reverseString(str);
 
+  const message = `The reverse of "${str}" is "${result}"`;
+
   // display for use
+  alert(message);
 
   // log for developers
-}
+  console.log('str: ', typeof str, '\n', str);
+  console.log('result: ', typeof result, '\n', result);
+  console.log('message: ', typeof message, '\n', message);
 
+}
