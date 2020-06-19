@@ -11,15 +11,18 @@ It could be used as a set of easy to understand pure JavaScript examples.
 > For this project we use an incremental development pattern, according to which each issue (UI or JS function) was developed in its own Git branch, reviewed and then added to the main project.
 
 ### 0. Set-Up
+#### Assigned to: [pavelbidenko2018](https://github.com/pavelbidenko2018)
 
 > On this step the project repo was generated from template.  
 
 Steps:
 - GitHub repo project was set up with the bunch of corresponding issues.
-- Write initial, basic README
+- Written initial, basic README
+- Development-strategy file created
 
 
 ### 1. Creating UI
+#### Assigned to: [gelilaa](https://github.com/gelilaa)
 
 > On this step entire UI was set up. So the user can see a styled web page with a set of buttons each of which will be linked with JS function handler.
 
@@ -30,6 +33,7 @@ Steps:
 * The GitHub pull request was reviewed by reviewers and the branch was merged to the ```master``` branch.  
 
 ### 2. Developing ```Convert to F``` function and its handler.
+#### Assigned to: [gelilaa](https://github.com/gelilaa)
 
 > On this step user can run a function ```Convert to F``` by pressing on appropriate button.  
 This function converts converts the ```Celcius``` temperature value to ```Fahrenheit``` value. 
@@ -44,6 +48,7 @@ was merged to the ```master``` branch.
 
 
 ### 3. Developing ```Convert to C``` function and its handler.
+#### Assigned to: [gelilaa](https://github.com/gelilaa)
 
 > On this step user can run a function ```Convert to C``` by pressing on appropriate button.  
 This function is like a previous one but converts the ```Fahrenheit``` temperature value  to ```Celcius```. 
@@ -58,11 +63,13 @@ was merged to the ```master``` branch.
 
 ### 4. Developing ```Confirm Ending``` function and its handler.
 
+#### Assigned to: [fmkarakus](https://github.com/fmkarakus)
+
 > On this step user can run a function ```confirmEnding()``` by pressing on appropriate button.  
 This function checks if the user correctly types the ending letters of the string value which was entered by the previous prompt. 
 
 Developing steps are similar to the previous: 
-* The new repo branch ```confirm-ending-script```was generated.
+* The new repo branch ```confirm-ending-script``` was generated.
 * The core logic function was developed.
 * It was passed through a set of tests.
 * An appropriate handler was developed to use the function interectively.
@@ -70,6 +77,8 @@ Developing steps are similar to the previous:
 was merged to the ```master``` branch.
 
 ### 5. Developing ```findLongestWordLength``` function and its handler.
+
+#### Assigned to: [fmkarakus](https://github.com/fmkarakus)
 
 > On this step user can run a function ```findLongestWordLength()``` by pressing on appropriate button.  
 This function finds the longest word in the input string, calculates and show user the quntity of symbols.  if the user correctly types the ending letters of the string value which was entered by the previous prompt. 
@@ -84,6 +93,8 @@ was merged to the ```master``` branch.
 
 ### 6. Developing ```Repeat String Num Times``` function and its handler.
 
+#### Assigned to: [pavelbidenko2018](https://github.com/pavelbidenko2018)
+
 > On this step user can run a function ```repeat-string-num-times()``` by pressing on appropriate button.  
 This function prompts a user to enter a string, on the second step it prompts to enter a number of times this string would be repeated and display the resulting string. 
 
@@ -95,7 +106,9 @@ Developing steps are similar to the the all project issues which concern JavaScr
 * PR was raised, reviewed by two assigned reviewers and the branch. 
 was merged to the ```master``` branch.
 
-### 7. Developing ```Reverse a String``` function and its handler.
+### 7. Developing ```Reverse a String``` function and its handler. 
+
+#### Assigned to: [LujiAnna](https://github.com/LujiAnna)
 
 > On this step user can run a function ```reverse-a-string()``` by pressing on appropriate button.  
 This function reverses each word in the input string and displays the resulting string.
@@ -108,7 +121,11 @@ Developing steps are similar to the the all project issues which concern JavaScr
 * PR was raised, reviewed by two assigned reviewers and the branch. 
 was merged to the ```master``` branch.
 
-### Finishing Touches
-On this step README file was completed in the separate branch ```readme``` which is merged to the ```master```
+### 8. Finishing Touches
+
+#### Assigned to: [fmkarakus](https://github.com/fmkarakus)
+
+On this step:
+* README file was completed in the separate branch ```readme``` which was reviewed and merged to the ```master```
 * W3C code validation made
 
